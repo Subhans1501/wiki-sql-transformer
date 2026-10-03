@@ -1,6 +1,6 @@
 import sentencepiece as spm
-from dataset import make_loader
-from embeddings import TokenEmbedding, InputLayer
+from starter.dataset import make_loader
+from starter.embeddings import TokenEmbedding, InputLayer
 from tokenizer import PAD_ID
 
 sp = spm.SentencePieceProcessor(model_file="sql_sp.model")
